@@ -166,6 +166,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   position: relative;
   overflow: hidden;
+  padding: 0;
 }
 
 .hero-left {
