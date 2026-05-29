@@ -4,6 +4,7 @@ import Pillars from "./components/home/Pillars";
 import Services from "./components/home/Services";
 import Quote from "./components/home/Quote";
 import Contact from "./components/home/Contact";
+import Promise from "./components/home/Promise";
 
 export default function Home() {
   return (
@@ -52,16 +53,16 @@ export default function Home() {
               <path
                 d="M45 8 L78 36 L78 80 L55 80 L55 58 L35 58 L35 80 L12 80 L12 36 Z"
                 stroke="#7a8c72"
-                stroke-width="2.5"
+                strokeWidth="2.5"
                 fill="none"
-                stroke-linejoin="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M12 36 C18 28 32 15 45 8 C58 15 72 28 78 36"
                 stroke="#7a8c72"
-                stroke-width="2.5"
+                strokeWidth="2.5"
                 fill="none"
-                stroke-linecap="round"
+                strokeLinecap="round"
               />
               <rect
                 x="36"
@@ -70,7 +71,7 @@ export default function Home() {
                 height="16"
                 rx="1"
                 stroke="#7a8c72"
-                stroke-width="1.8"
+                strokeWidth="1.8"
                 fill="none"
               />
               <line
@@ -79,7 +80,7 @@ export default function Home() {
                 x2="45"
                 y2="44"
                 stroke="#7a8c72"
-                stroke-width="1.2"
+                strokeWidth="1.2"
                 opacity="0.5"
               />
               <line
@@ -88,31 +89,31 @@ export default function Home() {
                 x2="54"
                 y2="36"
                 stroke="#7a8c72"
-                stroke-width="1.2"
+                strokeWidth="1.2"
                 opacity="0.5"
               />
               <path
                 d="M60 12 L63 9 L66 12"
                 stroke="#b8986a"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 fill="none"
-                stroke-linecap="round"
+                strokeLinecap="round"
               />
               <circle cx="63" cy="9" r="1.5" fill="#b8986a" opacity="0.6" />
               <path
                 d="M70 22 L72 20 L74 22"
                 stroke="#b8986a"
-                stroke-width="1.2"
+                strokeWidth="1.2"
                 fill="none"
-                stroke-linecap="round"
+                strokeLinecap="round"
               />
               <circle cx="72" cy="20" r="1.2" fill="#b8986a" opacity="0.5" />
               <path
                 d="M8 50 Q25 46 20 62 Q35 56 30 72"
                 stroke="#7a8c72"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 fill="none"
-                stroke-linecap="round"
+                strokeLinecap="round"
                 opacity="0.4"
               />
             </svg>
@@ -135,8 +136,9 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <Pillars />
+      <Promise />
       <Services />
+      <Pillars />
       <Quote />
       <Contact />
     </div>

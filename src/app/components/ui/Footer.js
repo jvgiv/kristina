@@ -7,7 +7,7 @@ export default function Footer() {
       <span className="footer-tagline">
         Attention to detail you can actually see.
       </span>
-      <span className="footer-copy">© 2025 Kristina Kneram</span>
+      <span className="footer-copy">© 2026 Kristina Kneram</span>
     </footer>
   );
 }
